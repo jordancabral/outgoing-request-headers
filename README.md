@@ -33,9 +33,8 @@ getHeadersFunction = () => { return {'my-header': 'my-value'} };
 
 This function overrides node http.request and https.request functions, to always add the headers retrieved from received function.
 
+## TODO'S
 
-## TODO'S:
-
-- Tests (only actual tests are examples)
-- Tests/examples with more libs
+- Tests (actual tests are examples)
+- Tests/examples with more http client libs
 - Tests/examples without need of echo-server docker run
